@@ -1,0 +1,39 @@
+.swiper {
+    overflow: hidden;
+    padding-bottom: 94px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.swiper__item-wrapper {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 327px;
+    height: 345px;
+    padding: 0 28px;
+
+    background: #FFFFFF;
+    box-shadow: -20px 20px 50px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+}
+
+.slider__item--img {
+    display: flex;
+    align-items: flex-end;
+
+    max-width: 345px;
+    height: 145px;
+    object-fit: cover;
+}
+
+.slider__item--title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333343;
+}
+
+.swiper-button-next{
+    color: #333343;
+}

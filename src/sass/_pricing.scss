@@ -1,0 +1,76 @@
+.pricing {
+    padding-bottom: 94px;
+}
+
+.pricing__title {
+    margin-left: 70px;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 1.07;
+    color: #89BF19;
+}
+
+.pricing__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+
+table.greyGridTable {
+    border: 2px solid #FFFFFF;
+    // max-width: 1370px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table.greyGridTable td, table.greyGridTable th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 4px;
+  }
+  table.greyGridTable tbody td {
+    font-size: 13px;
+  }
+  table.greyGridTable tr:nth-child(even) {
+    background: #F6F7F8;
+  }
+  table.greyGridTable thead {
+    background: #FFFFFF;
+    border-bottom: 4px solid #333333;
+  }
+  table.greyGridTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border-left: 2px solid #333333;
+  }
+  table.greyGridTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.greyGridTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+  }
+  table.greyGridTable tfoot td {
+    font-size: 14px;
+  }
+
+  .table__text-left {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .table__text-right {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
