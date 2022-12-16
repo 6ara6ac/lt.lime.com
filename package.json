@@ -1,5 +1,5 @@
 {
-  "name": "parcel-project-template",
+  "name": "lt.lime.co",
   "version": "2.0.0",
   "description": "**Read in other languages: [Русский](README.md), [Polski](README.pl.md).**",
   "homepage": "https://6ara6ac.github.io/lt.lime.com",
@@ -28,5 +28,6 @@
     "posthtml-include": "^1.7.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "source": "src/index.html"
+  "source": "src/index.html",
+  "main": "index.js"
 }
