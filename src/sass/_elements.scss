@@ -2,6 +2,11 @@ ul{
     padding: 0;
 }
 
+a {
+    color: #fff;
+    cursor: pointer;
+}
+
 .button {
     display: flex;
     background: linear-gradient(180deg, #50B03A 0%, #3A9126 100%), #3A9126;
@@ -47,5 +52,6 @@ ul{
 
 .container{
     padding: 0 100px 0 100px;
+    margin-top: 133px;
 }
 
