@@ -2,13 +2,6 @@
     padding-bottom: 94px;
 }
 
-.pricing__title {
-    margin-left: 70px;
-    font-size: 150px;
-    font-weight: 700;
-    line-height: 1.07;
-    color: #89BF19;
-}
 
 .pricing__wrapper{
     display: flex;
@@ -20,7 +13,7 @@
 
 table.greyGridTable {
     border: 2px solid #FFFFFF;
-    // max-width: 1370px;
+    max-width: 1370px;
     width: 100%;
     text-align: left;
     border-collapse: collapse;

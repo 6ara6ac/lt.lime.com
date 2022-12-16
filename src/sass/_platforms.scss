@@ -1,0 +1,54 @@
+.platforms__title {
+        color: #fff;
+
+}
+
+.platforms__wrapper-general {
+    content: '';
+    background-image: url('../images/Mask_group.png');
+    background-color: #333343;
+    height: 443px;
+    display: grid;
+    align-items: center;
+}
+
+.platforms__desktop-wrapper{
+    background-color: #F6F7F8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.platforms__img {
+    width: 50vw;
+}
+
+.platforms__text{
+    display: grid;
+    width: 50vw;
+    padding: 70px;
+}
+
+.platforms__list{
+    color: #D7D7D7;
+}
+
+.desktop__title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.16;
+}
+
+.desktop__title-green {
+    color: #89BF19;
+}
+
+.google__play-img {
+    max-width: 173px;
+}
+
+.platforms__apps{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
