@@ -50,6 +50,12 @@ a {
     color: #89BF19;
 }
 
+.title__positioned{
+    position: relative;
+    top: 42px;
+    z-index: -1;
+}
+
 .container{
     padding: 0 100px 0 100px;
     margin-top: 133px;

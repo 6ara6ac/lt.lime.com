@@ -243,6 +243,12 @@ a {
   color: #89BF19;
 }
 
+.title__positioned {
+  position: relative;
+  top: 42px;
+  z-index: -1;
+}
+
 .container {
   padding: 0 100px 0 100px;
   margin-top: 133px;
@@ -329,11 +335,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 30px;
-}
-
-.pricing {
-  padding-bottom: 94px;
 }
 
 .pricing__wrapper {
@@ -344,6 +345,7 @@ a {
 }
 
 table.greyGridTable {
+  margin-top: 0;
   border: 2px solid #FFFFFF;
   max-width: 1300px;
   width: 100%;
