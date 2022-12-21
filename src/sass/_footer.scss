@@ -12,6 +12,11 @@
     height: 153px;
 }
 
+.footer__adress-list:nth-last-child(n+2){
+    border-right: 1px solid #54546B;
+    padding-right: 44px;
+}
+
 .footer__adress-title{
     color: #FFF;
     font-size: 20px;

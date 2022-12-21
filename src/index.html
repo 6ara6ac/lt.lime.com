@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" type="image/x-icon" href="./images/favicon.svg" rel="shortcut icon">
+    <link type="Image/x-icon" href="./images/favicon.svg" rel="icon">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lime Trader</title>
@@ -16,7 +18,7 @@
     <img class ="logo" src="./images/logo.png" width="156px" height="52px" alt="">
     <div class="header__navigation">
       <ul class="header__navigation-list">
-        <li class="header__navigation-item"><a href="#hero">Why Lime</a></li>
+        <li class="header__navigation-item"><a href="#benefits">Why Lime</a></li>
         <li class="header__navigation-item"><a href="#pricing">Pricing</a></li>
         <li class="header__navigation-item"><a href="#platforms">Platforms</a></li>
         <li class="header__navigation-item"><a href="#learn">Learn</a></li>
@@ -25,17 +27,17 @@
     <div class="header__links">
     <ul class="header__links-list">
       <li class="header__links-item">
-       <a class="header__links-icon" href="https://tx.lime.co/">
+       <a class="header__links-icon" href="https://tx.lime.co/" target="_blank">
         <img width="19" height="19" src="./images/bi_graph-up-arrow.svg">
         Trade</a>
       </li>
       <li class="header__links-item">
-       <a class="header__links-icon" href="https://myaccount-int.lime.co/">
+       <a class="header__links-icon" href="https://myaccount-int.lime.co/" target="_blank">
         <img width="19" height="19" src="./images/ph_sign-in-light.svg">
         Sign in</a>
       </li>
       <li class="header__links-item openButton">
-       <a class="header__links-icon" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/">Open account</a>
+       <a class="header__links-icon" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/" target="_blank">Open account</a>
       </li>
     </ul>
     </div>
@@ -89,20 +91,21 @@
     <div class="hero__wrapper">
     <div class="hero__text">
     <h1 class="hero__title">
-    Invest and Trading<br> US stocks with <br><span class="hero__title-green">the best terms:</span>
+    Invest and Trading<br><span class="hero__title-green">US stocks with:</span>
     </h1>
     <ul class="hero__list list">
-      <li class="item">Brokerage commission: 0%</li>
+      <li class="item">Zero comission trading*</li>
       <li class="item">Minimum deposit: 10$</li>
       <!-- <li class="item">Earn 3,5% on your cash</li> -->
-      <li class="item">Leverage: 1:6</li>
+      <li class="item">Margin Trading available</li>
       <li class="item">ETFs trading</li>
-      <li class="item">Options trading</li>
+      <!-- <li class="item">Options trading</li> -->
       <!-- <li class="item">Instant and free account deposit</li> -->
       <li class="item">24 x 7 customer support</li>
       <li class="item">Free learn</li>
     </ul>
-    <a class="button hero_button" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/">Open account</a>
+    <a class="button hero_button" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/" target="_blank">Open account</a>
+    <p class="hero__disclore">*Commission-free trading only available through the Lime Trader platform. Free commission trading does not include options, OTCBB or Pink Sheets, or extended hours trading. Other fees, such as regulatory, service, or other fees, may apply. Please visit our Pricing Page for further information. All investing incurs risk, including but not limited to loss of principal. Further information may be found on our Disclosures Page.</p>
   </div>
 </div>
 
@@ -118,7 +121,7 @@
   <section class="benefits section " id="benefits">
     <div class="benefits__wrapper container">
     <h2 class="benefits__title title title__positioned">Why<br>Lime?</h2>
-    <a class="button hero_button" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/">Open account</a>
+    <a class="button hero_button" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/" target="_blank">Open account</a>
   </div>
 
     <div class="swiper">
@@ -126,8 +129,8 @@
               <div class="swiper-slide">
                 <div class="swiper__item-wrapper">
                   <div class="slider__item--img"><img src="../src/images/benefits/0_commission.png" alt></div>
-                  <div class="slider__item--title">$0 Commission Trading</div>
-                  <div class="slider__item--text">Earn on minimal price difference since (as) you will not waist your money on broker’s commissions (fees)</div>
+                  <div class="slider__item--title">$0 Commission Trading*</div>
+                  <div class="slider__item--text">On U.S.-listed stocks and ETFs, with direct low-cost access</div>
               </div>
               </div>
               <div class="swiper-slide">
@@ -147,7 +150,7 @@
               <div class="swiper-slide">
                 <div class="swiper__item-wrapper">
                   <div class="slider__item--img"><img src="../src/images/benefits/levarage.png" alt></div>
-                  <div class="slider__item--title">Leverage: 1:6</div>
+                  <div class="slider__item--title">Margin Trading available</div>
                   <div class="slider__item--text">Increase your potential profit with a 1:6 leverage</div>
               </div>
             </div>
@@ -179,13 +182,13 @@
           <div class="slider__item--text">Trade with help of any convenient device: laptop, desktop computer, smartphone, tablet</div>
       </div>
     </div>
-    <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
       <div class="swiper__item-wrapper">
         <div class="slider__item--img"><img src="../src/images/benefits/options.png" alt></div>
         <div class="slider__item--title">Options Trading</div>
         <div class="slider__item--text">Options can provide investors with more opportunities than traditional equity buy/sell strategies. Options are a popular way to hedge your positions</div>
     </div>
-  </div>
+  </div> -->
   <div class="swiper-slide">
     <div class="swiper__item-wrapper">
       <div class="slider__item--img"><img src="../src/images/benefits/etf.png" alt></div>
@@ -219,19 +222,17 @@
   <section class="pricing" id="pricing">
     <div class="pricing__wrapper container">
       <h2 class="pricing__title title title__positioned">Pricing</h2>
-      <a class="button hero_button" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/">Open account</a>
+      <a class="button hero_button" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/" target="_blank">Open account</a>
     </div>
 
     <table class="greyGridTable container">
       <tbody>
       <tr>
-      <td class="table__text-left">Brokerage commission</td><td class="table__text-right">Stocks,  ETFs: 0%</td></tr>
+      <td class="table__text-left">Brokerage trade commission</td><td class="table__text-right">Stocks,  ETFs: 0$</td></tr>
       <tr>
       <td class="table__text-left">Margin Rates</td><td class="table__text-right">9%</td></tr>
       <tr>
-      <td class="table__text-left">TAF</td><td class="table__text-right">$0.000119 per share each</td></tr>
-      <tr>
-      <td class="table__text-left">(Trading Activity Fee)</td><td class="table__text-right">execution (Max $5.95 per order)</td></tr>
+      <td class="table__text-left">Trading Activity Fee</td><td class="table__text-right">$0.000119 per share each<br> execution (Max $5.95 per order)</td></tr>
       <tr>
       <td class="table__text-left">SEC (Security and Exchange Commission)</td><td class="table__text-right">$0.0000229 per each dollar of sale proceeds</td></tr>
       <tr>
@@ -272,18 +273,18 @@
       <img class="platforms__img" src="./images/for_desktop.png" alt="">
       <div class="platforms__text">
       <h3 class="desktop__title">For <span class="desktop__title-green">Desktop</h3>
-      <p class="platforms_desk">"LimeTrader" for Web is great and easy to use online stock trading software.
-      <br><br>"LimeTrader" for Web comes in handy to suite all your needs from procured fundamental analysis to the most intricate technical analysis of your securities whether it be Stocks, ETFs and options.</p>
-      <a class="button" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/">Open account</a>
+      <p class="platforms_desk">LimeTrader for Web is great and easy to use online stock trading software.
+      <br><br>LimeTrader for Web comes in handy to suit all your needs from procured fundamental analysis to the intricate technical analysis of your securities whether it be Stocks, ETFs and options.</p>
+      <a class="button" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/" target="_blank">Open account</a>
     </div>
     </div>
     <div class="platforms__desktop-wrapper">
       <div class="platforms__text">
       <h3 class="desktop__title">For <span class="desktop__title-green">Mobile</h3>
-      <p class="platforms_desk">"LimeTrader" for Mobile allows 24/7 access to your trading account.
-      <br><br>"LimeTrader" for Mobile delivers round the clock accsess to your trading account with Mobile gadgets in mind it ensures that you would never miss a beat and be in the cutting edge of the all important news, trading signals and alerts</p>
+      <p class="platforms_desk">LimeTrader for Mobile allows convenient access to your trading account.
+      <br><br>LimeTrader for Mobile delivers round the clock accsess to your trading account with Mobile gadgets in mind it ensures that you would never miss a beat and be in the cutting edge of the all important news, trading signals and alerts</p>
       <div class="platforms__apps">
-      <a class="button" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/">Open account</a>
+      <a class="button" href="https://full-int.lime.co/openaccount/real/limetrader/lmi/" target="_blank">Open account</a>
       <div class="platforms__store">
       <a class="app__store" href='https://apps.apple.com/ua/app/lime-trader/id1314411861?l=us'><img class="app__store-img" alt='Get it on Google Play' src='./images/app__store.svg'/></a>
       <a class="google__play" href='https://play.google.com/store/apps/details?id=com.just2trade.android&hl=ru&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="google__play-img" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
@@ -308,12 +309,12 @@
 </div>
 
 <ul class="learn__list-video">
-  <li class="learn__video">LimeTrader Basics guide<a class="learn__video-link" href="https://youtu.be/HE_Qsu41IC0"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
-  <li class="learn__video">LimeTrader Graphical Analysis guide<a class="learn__video-link" href="https://youtu.be/xupINVbtYhM"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
-  <li class="learn__video">LimeTrader Technical Analysis guide<a class="learn__video-link" href="https://youtu.be/21fy-UZZ5I0"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
-  <li class="learn__video">LimeTrader Alerts guide<a class="learn__video-link" href="https://youtu.be/MNOBMKT2ubs"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
-  <li class="learn__video">LimeTrader Executing an order guide<a class="learn__video-link" href="https://youtu.be/AzvpdknR2PM"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
-  <li class="learn__video">LimeTrader Portfolio management guide<a class="learn__video-link" href="https://youtu.be/2RCNep8Ofsw"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
+  <li class="learn__video">LimeTrader Basics guide<a class="learn__video-link" href="https://youtu.be/HE_Qsu41IC0" target="_blank"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
+  <li class="learn__video">LimeTrader Graphical Analysis guide<a class="learn__video-link" href="https://youtu.be/xupINVbtYhM" target="_blank"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
+  <li class="learn__video">LimeTrader Technical Analysis guide<a class="learn__video-link" href="https://youtu.be/21fy-UZZ5I0" target="_blank"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
+  <li class="learn__video">LimeTrader Alerts guide<a class="learn__video-link" href="https://youtu.be/MNOBMKT2ubs" target="_blank"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
+  <li class="learn__video">LimeTrader Executing an order guide<a class="learn__video-link" href="https://youtu.be/AzvpdknR2PM" target="_blank"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
+  <li class="learn__video">LimeTrader Portfolio management guide<a class="learn__video-link" href="https://youtu.be/2RCNep8Ofsw" target="_blank"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
 </ul>
 
   </section>
@@ -321,23 +322,23 @@
   <footer>
     <div class="footer__adress container">
       <img class ="logo__footer" src="./images/logo.png" width="156px" height="52px" alt="">
-      <ul>
+      <ul class="footer__adress-list">
         <li class="footer__adress-title">Address</li>
         <li class="footer__adress-subtitle">10 Chrysanthou Mylona, MAGNUM HOUSE<br> 3030 Limassol, Cyprus</li>
       </ul>
-      <ul>
+      <ul class="footer__adress-list">
         <li class="footer__adress-title">Phone</li>
         <li class="footer__adress-subtitle">Domestic and International: <br>+357 25 030 442</li>
       </ul>
-      <ul>
+      <ul class="footer__adress-list">
         <li class="footer__adress-title">Email</li>
         <li class="footer__adress-subtitle">24_support@int.lime.co</li>
       </ul>
     </div>
     <div class="footer__content container">
     <p>
-      Lime International is a FinTech product of Just2Trade Online Ltd intended for clients trading in financial instruments specifically traded on the stock market.
-      Just2Trade Online Ltd is a leading international investment company providing its Clients with direct access to the major world stock and currency markets. Our Company is built by talented people who continually deliver our high levels of service. Together, we not only deliver a great trading experience for our Clients, but we also create a great Company to work for. Our Company provides a wide array of investment services:
+      Lime International is a FinTech product of Lime Trading (CY) Ltd intended for clients trading in financial instruments specifically traded on the stock market.
+Lime Trading (CY) Ltd is a leading international investment company providing its Clients with direct access to the major world stock and currency markets. Our Company is built by talented people who continually deliver our high levels of service. Together, we not only deliver a great trading experience for our Clients, but we also create a great Company to work for. Our Company provides a wide array of investment services:
       <br>
       <br>
       ● Brokerage Services
@@ -346,12 +347,10 @@
     <br>
     <br>
 
-    Just2Trade is subject to the oversight and legal framework of the European Securities and Markets Authority (ESMA) and is authorized and regulated by the Cyprus Securities and Exchange Commission (CySEC) under license number 281/15. Additionally, Lime Trading is a member of the Investor Compensation Fund.
-    Just2Trade Online Ltd provides customers with direct access to the major world stock and currency markets. The company has a strong international presence. The clients of Just2Trade Online Ltd are both individuals and legal entities.
-    <br>
+    Lime Trading (CY) Ltd is subject to the oversight and legal framework of the European Securities and Markets Authority (ESMA) and is authorized and regulated by the Cyprus Securities and Exchange Commission (CySEC) under license number 281/15. Additionally, Lime Trading (CY) Ltd is a member of the Investor Compensation Fund.    <br>
     <br>
     The business, banking, legal and accounting procedures are patterned after the best European standards, aiming to minimize investment risk and maximize reliability and trust.
-    <br>The headquarter of Just2Trade Online Ltd is located at the heart of Limassol’s business district — the second largest town in Cyprus, nevertheless the most important tourist and commercial center and the largest harbour on the island.
+    <br>The headquarter of Lime Trading (CY) Ltd is located at the heart of Limassol’s business district — the second largest town in Cyprus, nevertheless the most important tourist and commercial center and the largest harbour on the island.
     </p>
     <div class="footer__content-second">
     <p>
@@ -369,13 +368,13 @@
     <ul class="documents__list">
       <div>
       <li class="documents__item"><a href="./documents/2022.11.08_Privacy Policy.pdf" target="_blank">Privacy policy</a></li>
-      <li class="documents__item"><a href="">Client questionnaire for legal entities</a></li>
+      <li class="documents__item"><a href="./documents/2022.10.27 - Client Questionnaire for Legal Entities.pdf">Client questionnaire for legal entities</a></li>
       <li class="documents__item"><a href="./documents/2022.10.27 - KYC Account Opening - Individuals.pdf" target="_blank">Know your client (KYC)</a></li>
-      <li class="documents__item"><a href="" target="_blank">Client questionnaire for individuals</a></li>
+      <li class="documents__item"><a href="./documents/2022.10.27 - Client Questionnaire for Individuals.pdf" target="_blank">Client questionnaire for individuals</a></li>
       <li class="documents__item"><a href="./documents/2022.10.27 - Terms&Conditions.pdf" target="_blank">Terms & conditions</a></li>
     </div>
   <div>
-      <li class="documents__item"><a href="" target="_blank">Application form for legal entities</a></li>
+      <li class="documents__item"><a href="./documents/2022.10.27 - KYC Account Opening - Legal Entities.pdf" target="_blank">Application form for legal entities</a></li>
       <li class="documents__item"><a href="./documents/Data Subject Erasure Request Form.pdf" target="_blank">Data subject erasure request form (GDPR)</a></li>
       <li class="documents__item"><a href="./documents/2022.10.27 - Request for re-categorization notice.pdf" target="_blank">Client categorization notice</a></li>
       <li class="documents__item"><a href="./documents/2022.10.27_Restrictions.pdf" target="_blank">Restrictions</a></li>
@@ -384,7 +383,7 @@
       <li class="documents__item"><a href="./documents/2022.10.27_Warning on the differences in regulatory protections.pdf" target="_blank">Warning on the differences in regulatory protections</a></li>
       <li class="documents__item"><a href="./documents/2022.10.27 - CLIENTS COMPLAINT HANDLING PROCESS.pdf" target="_blank">Clients complaints policy</a></li>
       <li class="documents__item"><a href="./documents/2022.10.27 - Statement regarding Anti-Money Laundering.pdf" target="_blank">AML/CTF Statement</a></li>
-      <li class="documents__item"><a href=""></a>Brokerage regulations</li>
+      <li class="documents__item"><a href="./documents/2022.10.27 - Brokerage Regulations_eng.pdf"></a>Brokerage regulations</li>
     </div>
     </ul>
   </footer>
