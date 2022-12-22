@@ -3,10 +3,24 @@
     font-size: 60px;
     line-height: 1.16;
     max-width: 787px;
+
+    @media screen and (max-width:767px) {
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+
+        width: 100%;
+    }
 }
 
 .learn__wrapper{
-    display: flex;
+    @media screen and (min-width:768px) {
+        display: flex;
+    }
+}
+
+.learn__button:hover{
+    box-shadow: -20px 20px 50px 5px rgba(0, 0, 0, 0.1);
 }
 
 .learn__wrapper-button {
@@ -58,12 +72,14 @@ align-items: center;
 }
 
 .learn__list-video{
-    display: flex;
     gap:30px;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 70px;
 
+    @media screen and (min-width:768px) {
+        display: flex;
+    }
 }
 
 .learn__video{
@@ -84,6 +100,10 @@ align-items: center;
     font-weight: 700;
     line-height: 1.2;
     border-radius: 40px;
+}
+
+.learn__video:hover {
+    box-shadow: -20px 20px 50px 5px rgba(0, 0, 0, 0.1);
 }
 
 .learn__video-link{

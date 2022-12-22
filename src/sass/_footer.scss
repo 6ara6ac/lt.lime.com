@@ -4,17 +4,24 @@
 }
 
 .footer__adress{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
+    text-align: center;
 
     background-color: #222229;
-    height: 153px;
+    
+    @media screen and (min-width:768px) {
+        display: flex;
+        height: 153px;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .footer__adress-list:nth-last-child(n+2){
+    @media screen and (min-width:768px) {
     border-right: 1px solid #54546B;
     padding-right: 44px;
+    }
 }
 
 .footer__adress-title{
@@ -73,10 +80,13 @@
 }
 
 .documents__list{
-    display: flex;
     justify-content: space-between;
 
     list-style-type: disclosure-closed;
+
+    @media screen and (min-width:768px) {
+        display: flex;
+    }
 }
 
 .documents__item{

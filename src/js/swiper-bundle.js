@@ -12,11 +12,27 @@
     direction: 'horizontal',
     loop: true,
     autoHeight: true,
-    slidesPerView: 5,
-    spaceBetween: 10,
+    slidesPerView: 4,
     initialSlide: 0,
     setWrapperSize: true,
-    createElements: true,
+    resizeObserver: false,
+
+    breakpoints: {
+      // when window width is >= 320px
+      767: {
+        slidesPerView: 1,
+      },
+      // // when window width is >= 480px
+      768: {
+        slidesPerView: 4,
+      },
+      // // when window width is >= 640px
+      // 640: {
+      //   slidesPerView: 4,
+      //   spaceBetween: 40
+      // }
+    },
+  
 
     // If we need pagination
     pagination: {
@@ -34,5 +50,9 @@
     scrollbar: {
       el: '.swiper-scrollbar',
       hide: true,
+    },
+
+    autoplay: {
+      delay: 3000,
     },
   });
