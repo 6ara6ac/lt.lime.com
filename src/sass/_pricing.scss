@@ -1,8 +1,10 @@
-.pricing__wrapper{
-    
+.pricing {
+  margin-bottom: 94px;
+}
 
+.pricing__wrapper{
     @media screen and (min-width:768px) {
-      display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 30px;
