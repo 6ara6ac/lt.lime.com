@@ -1,3 +1,5 @@
+
+
 .learn__description {
     color: #333343;
     font-size: 60px;
@@ -30,18 +32,28 @@
 .learn__text{
     display: grid;
     align-items: center;
-    padding: 24px 32px 33px 43px;
 
     content: '';
-    background-image: url('../images/figure.png');
-    width: 537px;
-    height: 203px;
     text-align: center;
     font-weight: 400;
-
+    font-size: 14px;
+    line-height: 1.21;
     color: #fff;
+
+    padding: 39px 11px 45px 11px;
+
+    
+    background-image: url('../images/Rectangle_formobile.png');
+    background: no-repeat;
+
+    @media screen and (min-width:768px) {
+    background-image: url('../images/figure.png');
+    padding: 24px 32px 33px 43px;
+    width: 537px;
+    height: 203px;
     font-size: 24px;
     line-height: 1.33;
+    }
 }
 
 .learn__button{

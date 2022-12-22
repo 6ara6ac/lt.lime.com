@@ -55,9 +55,13 @@
 }
 
 .platforms__apps{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 .platforms_desk{
