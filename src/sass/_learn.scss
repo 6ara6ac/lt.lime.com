@@ -27,6 +27,7 @@
 
 .learn__wrapper-button {
     display: grid;
+    justify-content: center;
 }
 
 .learn__text{
@@ -39,12 +40,12 @@
     font-size: 14px;
     line-height: 1.21;
     color: #fff;
-
+    width: 300px;
+    height: 151px;
     padding: 39px 11px 45px 11px;
 
     
     background-image: url('../images/Rectangle_formobile.png');
-    background: no-repeat;
 
     @media screen and (min-width:768px) {
     background-image: url('../images/figure.png');
@@ -87,10 +88,11 @@ align-items: center;
     gap:30px;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 70px;
 
-    @media screen and (min-width:768px) {
-        display: flex;
+    display: flex;
+    
+    @media screen and (min-width:767px) {
+        margin-top: 70px;
     }
 }
 

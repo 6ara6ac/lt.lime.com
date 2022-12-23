@@ -17,6 +17,11 @@
     background: #FFFFFF;
     box-shadow: -20px 20px 50px 5px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
+
+    @media screen and (max-width:767px) {
+        max-width: 430px;
+        width: 100%;
+    }
 }
 
 .slider__item--img {
