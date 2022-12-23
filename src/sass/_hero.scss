@@ -52,14 +52,13 @@
     background-color: rgba(137, 191, 25, 1);
     border-radius: 10px;
     color: #fff;
-    margin-left: auto;
-    margin-right: auto;
+  
 
     @media screen and (max-width:768px) {
     max-width: 600px;
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 

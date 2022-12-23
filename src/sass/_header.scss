@@ -13,10 +13,10 @@ header{
 .mobile__menu-container {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     align-items: center;
     height: 64px;
-    padding: 0 20px 0 20px;
+    padding: 0 10px;
 
     @media screen and (min-width: 768px) {
           display: none;
