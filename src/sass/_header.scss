@@ -99,11 +99,19 @@ header{
     background-color: #4B4B5C;
 }
 
+.headerStore {
+    @media screen and (min-width:767px){
+        display: none;
+    }
+}
+
 .mobileButton {
     width: 150px;
     background: linear-gradient(180deg, #50B03A 0%, #3A9126 100%), #3A9126;
     height: 40px;
     text-align: center;
+
+    font-size: 14px;
 }
 
 .mobileIcon{
@@ -113,6 +121,8 @@ header{
     border-radius: 40px;
     justify-content: center;
     align-items: center;
+
+    font-size: 14px;
 }
 
 .header__links-item.openButton {
