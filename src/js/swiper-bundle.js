@@ -53,6 +53,6 @@
     },
 
     autoplay: {
-      delay: 3000,
+      delay: 12000,
     },
   });
