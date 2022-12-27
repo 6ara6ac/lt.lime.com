@@ -12,7 +12,7 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-  <header class="header">
+  <header class="header" id="header">
 
     <div class="header__container ">
     <img class ="logo" src="./images/logo.png" width="156px" height="52px" alt="">
@@ -308,14 +308,14 @@
 
   <section class="Learn container section" id="learn">
   <h2 class="title">Learn</h2>
-  <div class="learn__wrapper">
+  <!-- <div class="learn__wrapper">
   <h3 class="learn__description">To embark in a successful trading journey please watch our training tutorials:</h3>
   <div class="learn__wrapper-button">
     <p class="learn__text">Also you can get free personalized online training tutorials for this click the button below
     </p>
     <button class="learn__button" href="" data-modal-open>Register</a>
   </div>
-</div>
+</div> -->
 
 <ul class="learn__list-video">
   <li class="learn__video">LimeTrader Basics guide<a class="learn__video-link" href="https://youtu.be/HE_Qsu41IC0" target="_blank"><img class="learn__video-img" src="./images/video_pic.svg" alt="">Open</a></li>
@@ -346,13 +346,13 @@
     </div>
     <div class="footer__content container">
     <p>
-      Lime International is a FinTech product of Lime Trading (CY) Ltd intended for clients trading in financial instruments specifically traded on the stock market.
-Lime Trading (CY) Ltd is a leading international investment company providing its Clients with direct access to the major world stock and currency markets. Our Company is built by talented people who continually deliver our high levels of service. Together, we not only deliver a great trading experience for our Clients, but we also create a great Company to work for. Our Company provides a wide array of investment services:
+      Lime International is an innovative FinTech product designed and created by Lime Trading (CY) Ltd that provides our Clients a gateway to a universe of international financial markets.
+      Lime Trading (CY) Ltd is a leading European brokerage firm revolutionising the way people trade and invest. Clients in over 80 countries trade stocks, options, futures and bonds on more than 100 global markets from a single unified platform.
       <br>
       <br>
-      ● Brokerage Services
+      Discover our truly global network boasting broad market access across both developed and emerging markets.
+      
     <br>
-      ● Investment Research and Financial Analysis Services
     <br>
     <br>
 
@@ -392,10 +392,19 @@ Lime Trading (CY) Ltd is a leading international investment company providing it
       <li class="documents__item"><a href="./documents/2022.10.27_Warning on the differences in regulatory protections.pdf" target="_blank">Warning on the differences in regulatory protections</a></li>
       <li class="documents__item"><a href="./documents/2022.10.27 - CLIENTS COMPLAINT HANDLING PROCESS.pdf" target="_blank">Clients complaints policy</a></li>
       <li class="documents__item"><a href="./documents/2022.10.27 - Statement regarding Anti-Money Laundering.pdf" target="_blank">AML/CTF Statement</a></li>
-      <li class="documents__item"><a href="./documents/2022.10.27 - Brokerage Regulations_eng.pdf"></a>Brokerage regulations</li>
+      <li class="documents__item"><a href="./documents/2022.10.27 - Brokerage Regulations_eng.pdf">Brokerage regulations</a></li>
     </div>
     </ul>
   </footer>
+
+  <div id="riskWarningSticky2" class="sticky is-at-bottom is-stuck" style="bottom: 0px; color: white; padding: 5px 5px 5px 40px; font-size: 14px; background: rgba(35, 35, 35, 0.97); text-align: center; position: sticky; z-index: 9999;">
+    <button class="close_risk" style="position: absolute; left: 2px; font-size: 23px; cursor: pointer; margin-top: -3px; padding: 0 8px 4px 8px; line-height: 1; color: #09f244; border: solid 1px; background-color: transparent;">х</button>
+    <div>
+        <span style="color: #09f444;"><strong>Risk warning:</strong></span> Trading on financial markets carries risks. The value of the investments can both increase and decrease and the investors may lose all their investment capital. In case of a leveraged product, the loss may be more than the initial capital invested. Detailed information on risks associated with trading on financial markets can be found in <a class="risk_links" href="./documents/Terms and Conditions for the Provision of Investment Services_eng.pdf" class="cl-grey" target="_blank">General Terms and Conditions for the Provision of Investment Services</a>.<br>
+Investment risks related to cryptocurrencies can be found in the following <a href="./documents/Investment risks related to cryptocurrencies.pdf" class="risk_links" target="_blank">disclosure</a>.
+    </div>
+</div>
+
 
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
@@ -457,6 +466,7 @@ Lime Trading (CY) Ltd is a leading international investment company providing it
   <script type="module" src="./js/swiper-bundle.js"></script>
   <!-- <script type="module" src="./js/form.js"></script> -->
   <script type="module" src="./js/modal.js"></script>
+  <script type="module" src="./js/close.js"></script>
   <!-- <script type="module" src="./js/fixedMenu.js"></script> -->
   </body>
 </html>

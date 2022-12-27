@@ -4,6 +4,10 @@
     @media screen and (max-width:767px) {
         margin-top: 0;
     }
+
+    @media screen and (min-width:768px) and (max-width:1000px) {
+        font-size: 130px;
+    }
 }
 
 .platforms__wrapper-general {
@@ -21,13 +25,13 @@
     align-items: stretch;
     display: flex;
     
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:767px) {
         flex-direction: column;
     }
 }
 
 .mobilePlatforms {
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:767px) {
     flex-direction: column-reverse;
     }
 }

@@ -80,12 +80,17 @@
     position: relative;
     object-fit: contain;
     
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:767px) {
         display: none;
     }
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:1200px) {
         top: 100px;
-        left: -160px;
+        left: -120px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        top: 206px;
+        left: -37px;
     }
 }
 
