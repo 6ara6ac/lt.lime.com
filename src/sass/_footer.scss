@@ -1,6 +1,6 @@
 .logo__footer{
-    width: 276px;
-    height: 69px;
+    max-width: 276px;
+    max-height: 69px;
 
     @media screen and (max-width: 999px) {
         width: 269px;

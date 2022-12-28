@@ -44,7 +44,7 @@ header{
     }
 
     @media screen and (min-width:1200px) {
-        padding: 0 100px;
+        padding: 0 150px;
     }
 }
 
@@ -64,13 +64,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 20px;
     color: #fff;
     
-    @media screen and (min-width:1200px) {
-    gap: 46px;
-
-    }
+   
 }
 
 .header__navigation-item{
@@ -84,7 +81,7 @@ header{
 .header__links-list {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
 }
 
 .header__links-icon{
