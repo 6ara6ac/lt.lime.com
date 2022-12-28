@@ -1,6 +1,6 @@
 .hero__container {
     
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:1199px) {
     display: flex;
     height: 832px;
     }
@@ -12,18 +12,19 @@
     align-items: center;
     justify-content: center;
 
-    @media screen and (max-width:767px) {
+    @media screen and (max-width:1199px) {
         padding-bottom: 54px;
     }
 
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:1199px) {
     width: 50vw;
     }
 }
 
 .hero__list{
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:1199px) {
         margin-bottom: 0;
+        justify-content: center;
     }
 }
 
@@ -36,12 +37,13 @@
     line-height: 1.16;
     z-index: 999;
 
-    @media screen and (max-width:767px){
+    @media screen and (max-width:1199px){
         font-size: 30px;
         line-height: 1.2;
         font-weight: 700;
 
         margin-top: 15px;
+        text-align: center;
     }
 }
 
@@ -60,7 +62,7 @@
     color: #fff;
   
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:1199px) {
     max-width: 600px;
     width: 100%;
         margin-right: auto;
@@ -80,7 +82,7 @@
     position: relative;
     object-fit: contain;
     
-    @media screen and (max-width:767px) {
+    @media screen and (max-width:1200px) {
         display: none;
     }
     @media screen and (min-width:1200px) {
@@ -88,21 +90,63 @@
         left: -120px;
     }
 
+    
+}
+
+.main__image-tablet {
+    display: none;
     @media screen and (min-width:768px) and (max-width:1199px) {
-        top: 206px;
-        left: -37px;
+        position: relative;
+        display: block;
+        top: -50px;
+        left: 0px;
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        width: 90vw;
     }
+}
+
+.main__image-tabletWrapper {
+    content: "";
+    display: none;
+
+    @media screen and (min-width:768px) and (max-width:1199px) {
+    margin-top: 100px;
+    display: block;
+    background-image: url('../images/Rectangle.png');
+    background-size: cover;
+    width: 100vw;
+}
 }
 
 
 .main__image-wrapper {
     content: "";
     background-color: #F6F7F8;
+    width: 100%;
     
-    @media screen and (min-width:768px) {
+    
+    @media screen and (min-width:1199px) {
     background-image: url('../images/Rectangle.png');
     background-color: transparent;
     width: 50vw;
+    }
+
+}
+
+.platforms__store.headerStore {
+    margin-top: 5px;
+    
+    @media screen and (min-width:1199px){
+        display: none;
+    }
+}
+
+.hero__text.container{
+    @media screen and (min-width:767px) and (max-width:1199px) {
+        padding: 0;
     }
 }
 

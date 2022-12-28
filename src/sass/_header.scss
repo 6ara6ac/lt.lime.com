@@ -108,13 +108,7 @@ header{
     background-color: #4B4B5C;
 }
 
-.platforms__store.headerStore {
-    margin-top: 5px;
-    
-    @media screen and (min-width:767px){
-        display: none;
-    }
-}
+
 
 .mobileButton {
     width: 150px;
