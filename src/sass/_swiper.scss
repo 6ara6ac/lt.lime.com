@@ -11,8 +11,8 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    width: 327px;
-    height: 345px;
+    width: 350px;
+    height: 380px;
     padding: 28px;
     background: #FFFFFF;
     box-shadow: -20px 20px 50px 5px rgba(0, 0, 0, 0.1);
@@ -38,6 +38,7 @@
     font-weight: 700;
     line-height: 1.2;
     color: #333343;
+    margin-bottom: auto;
 }
 
 .swiper-button-next{
@@ -47,4 +48,8 @@
 .slider__img{
     max-width: 150px;
     width: 100%;
+}
+
+.slider__item--text {
+    margin-bottom: auto;
 }
