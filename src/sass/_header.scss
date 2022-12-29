@@ -31,27 +31,30 @@ header{
 
 
 .header__container {
-    padding: 0 15px;
 
     display: flex;
     background-color: #222229;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 65px;
 
     @media screen and (max-width: 1000px)  {
         display: none;
     }
 
+    @media screen and (min-width:1000px) and (max-width:1199px) {
+        padding: 0 50px;
+    }
+
     @media screen and (min-width:1200px) {
-        padding: 0 150px;
+        padding: 0 200px;
     }
 }
 
 
 
 .logo {
-    height: 52px;
+    height: 40px;
     object-fit: contain;
     @media screen and (max-width:1000px) {
         height: 42px;
@@ -64,7 +67,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 17px;
     color: #fff;
     
    
@@ -72,6 +75,7 @@ header{
 
 .header__navigation-item{
     text-decoration-color:#337224;
+    font-size: 14px;
 }
 
 .header__navigation-item:hover{
@@ -81,21 +85,21 @@ header{
 .header__links-list {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .header__links-icon{
     display: flex;
     gap: 9px;
     color: #fff;
- 
+    font-size: 14px;
 }
 
 .header__links-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    width: 100px;
     height: 44px;
     background-color: #313137;
     border-radius: 40px;

@@ -13,7 +13,7 @@
     align-items: center;
     width: 327px;
     height: 345px;
-    padding: 0 28px;
+    padding: 28px;
     background: #FFFFFF;
     box-shadow: -20px 20px 50px 5px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
@@ -42,4 +42,9 @@
 
 .swiper-button-next{
     color: #333343;
+}
+
+.slider__img{
+    max-width: 150px;
+    width: 100%;
 }
